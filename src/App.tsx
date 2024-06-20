@@ -1,8 +1,10 @@
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
-    <>
-      <h1 className="text-blue-800">Hello World</h1>
-    </>
+    <div className="px-20 pt-14">
+      <NavBar></NavBar>
+    </div>
   );
 }
 
