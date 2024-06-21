@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <h1 className="mt-28 flex items-center justify-center text-[14px] font-bold">
-        2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED
+        {(new Date().getFullYear())} © HYDRA LANDING PAGE - Design by ZINE. E. FALOUTI - Developed by Danisa Juarez - ALL RIGHTS RESERVED
       </h1>
     </>
   );
